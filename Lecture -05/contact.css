@@ -1,0 +1,15 @@
+.name{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+.inputName{
+    padding: 5px;
+    outline: none;
+    border-radius: 8px;
+}
