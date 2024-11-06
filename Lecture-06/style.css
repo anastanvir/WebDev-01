@@ -1,0 +1,93 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 30px;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+td,
+th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+}
+
+tbody tr:hover {
+    background-color: rgba(127, 255, 212, 0.153);
+    cursor: pointer;
+    /* font-weight: 900; */
+}
+
+.tableContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.inputlabel {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputlabel input {
+    outline: none;
+    border: 2px dashed maroon;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.inputlabel input:focus {
+    outline: none;
+    border: 2px solid green;
+    border-radius: 10px;
+    padding: 10px;
+    transition: .5s all ease;
+}
+
+.inputlabel textarea {
+    outline: none;
+    border: 2px dashed maroon;
+    border-radius: 10px;
+    padding: 10px;
+    height: 150px;
+}
+
+.inputlabel textarea:focus {
+    outline: none;
+    border: 2px solid green;
+    border-radius: 10px;
+    padding: 10px;
+    transition: .5s all ease;
+}
+
+/* .inputlabel input::placeholder{
+
+} */
+
+.formOuter {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    width: max-content;
+}
+
+.names {
+    display: flex;
+    gap: 10px;
+}
+
+.names1 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
