@@ -1,0 +1,206 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.nav1 {
+    background: #333;
+    font-size: 1.2rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.nav1 button {
+    background-color: #eb5757;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    padding: 7px;
+    border-radius: 25px;
+    animation: bg 1s infinite;
+}
+
+
+@keyframes bg {
+    0% {
+        background: #eb5757;
+        color: white;
+    }
+
+    100% {
+        background-color: black;
+        color: white;
+    }
+}
+
+.nav2 {
+    background: #eb5757;
+    /* font-size: 1.2rem; */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+}
+
+.nav2 ul li {
+    list-style: none;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+.nav2 ul li:hover {
+    background-color: #222222;
+    cursor: pointer;
+
+    transition: .3s all ease;
+}
+
+.nav2 ul {
+    display: flex;
+    gap: 30px;
+
+}
+
+.nav2 ul li i {
+    font-size: 1.5rem;
+}
+
+.nav2 ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart span {
+    background-color: white;
+    color: black;
+    font-size: .6rem;
+    border-radius: 30px;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+}
+
+.cart {
+    position: relative;
+    background: #222222;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.cart span {
+    position: absolute;
+    right: 5px;
+    top: 6px;
+}
+
+.nav {
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+}
+
+
+/* Hero Section CSS */
+
+.hero {
+    background-image: url("https://images.pexels.com/photos/29008783/pexels-photo-29008783/free-photo-of-hiker-at-sunrise-in-torres-del-paine-chile.jpeg?auto=compress&cs=tinysrgb&w=600");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 200px;
+    color: white;
+    position: relative;
+
+}   
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+  }
+
+.hero h1{
+    font-size: 3.5rem;
+    width: 400px;
+    line-height: 1.1;
+}
+
+
+.heroContent{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: fit-content;
+    /* z-index:999; */
+}
+.heroContent p{
+    width: 300px;
+}
+.hero button {
+    border:1px solid white;
+    border-width: 2px;
+    color: white;
+    padding: 6px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    background: transparent;
+    transition: .3s all ease;
+    cursor: pointer;
+    width: 150px;
+}
+
+.hero button:hover{
+    background: white;
+    color: black;
+}
+
+.main2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+}
+
+.leftM .largeText{
+font-size: 2rem;
+font-weight: bold;
+}
+
+.rightM{
+    width: 500px;
+    font-size: .9rem;
+}
+
+.boxContent{
+    background: #333;
+    color: white;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+}
+.third{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
