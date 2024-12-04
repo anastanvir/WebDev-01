@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="fixed w-full p-2">
+      <nav
+        class="w-full flex justify-between items-center md:px-20 px-6 py-1 backdrop-blur-sm text-black rounded-xl shadow-md bg-white"
+      >
+        <div>
+          <img src="./logo.png" class="w-[60px]" />
+        </div>
+        <div>
+          <ul class="md:flex gap-10 hidden">
+            <li>Home</li>
+            <li>Services</li>
+            <li>Contact</li>
+            <li>Attract</li>
+          </ul>
+          <div class="md:hidden flex flex-col items-end gap-1">
+            <div class="bg-black w-8 h-[2px]"></div>
+            <div class="bg-black w-6 h-[2px]"></div>
+            <div class="bg-black w-8 h-[2px]"></div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div>
+      <div
+        class="w-screen h-full"
+        style="
+          background-image: url(https://images.pexels.com/photos/772803/pexels-photo-772803.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        "
+      >
+        <div class="bg-black/40 w-screen h-screen md:pt-[200px] pt-[400px] flex md:flex-row flex-col justify-center items-center gap-20 md:px-20 px-10">
+          <div class="text-white flex flex-col items-start gap-5 md:p-6 p-2" >
+            <h1 class="text-6xl" >This is Heading</h1>
+            <p class="text-[1.3rem]" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, delectus! Molestiae id error similique delectus voluptatibus sint, iure quae molestias?</p>
+            <button class="bg-white p-2 text-[1.2rem] rounded-md hover:bg-white/50 text-black hover:text-white transition-all" >Click Now</button>
+          </div>
+          <div>
+            <img src="./hero.png"class="vert-move md:w-[700px] w-[300px]" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
